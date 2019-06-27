@@ -41,18 +41,27 @@
 		</div>
 	</div>
 
-	<div class="row" style="">
-		
-			<button style="width: 30%; text-align: center; margin: 0 auto; height: 60px; font-size: 26px; font-weight: bold; margin-bottom: 50px" type="button" class="next-btn btn btn-success">Ver Mais</button>
-		</div>
+	<div class="row">
+		<button style="width: 30%; text-align: center; margin: 0 auto; height: 60px; font-size: 26px; font-weight: bold; margin-bottom: 50px" type="button" class="next-btn btn btn-success">Ver Mais</button>
+	</div>
 	
 </div>
 
+<!-- Modal Struture -->
 <!-- Modal Struture -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-body">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="loading" tabindex="-1" role="dialog" aria-labelledby="loadingTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body-loading" style="text-align: center;">	
       </div>
     </div>
   </div>
